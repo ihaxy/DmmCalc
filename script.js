@@ -22,8 +22,8 @@ document.getElementById('str1').value = dailyOtherCap-otherRes; // Used xp
 document.getElementById('str2').value = otherRes; // remaining xp
 //Calc and update daily cap - broken atm
 var dailyCap = 500000 -(((dailyMeleeCap-result)/1.5)+(dailyOtherCap-otherRes))
-document.getElementById('rem').value = Math.round(dailyCap*1.5).toFixed(2)
-document.getElementById('rem1').value = Math.round(dailyCap).toFixed(2)
+document.getElementById('rem').value = Math.round(dailyCap*1.5).toFixed()
+document.getElementById('rem1').value = Math.round(dailyCap).toFixed()
 //Update XP fields
 document.getElementById('targ12').value = targAtt;
 document.getElementById('targ22').value = targStr;
